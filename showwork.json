@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "stack": "node-api",
+  "scripts": { "test": "test", "migrate": "db:migrate", "start": "start" },
+  "port": 3000,
+  "readyPath": "/health",
+  "database": { "kind": "postgres", "version": "16" }
+}
